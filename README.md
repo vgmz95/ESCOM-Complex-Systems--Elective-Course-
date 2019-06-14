@@ -5,7 +5,7 @@ This repository contains all the code made during the optative course of Complex
 This program generates all 255 rules of the [elementary cellular automaton](https://en.wikipedia.org/wiki/Elementary_cellular_automaton#Random_initial_state), the initial array can be generated randomly, by typing it into the console or by reading a plain text archive. 
 
 <p align="center">
-<img src="/img/1D.PNG" alt="1D automaton" width="400"/>
+<img src="/img/1D.PNG" alt="1D automaton" width="500"/>
 </p>
 
 ## Game Of Life 
@@ -31,5 +31,5 @@ Other characteristics include:
 This is variaton of the [BML traffic model](https://en.wikipedia.org/wiki/Biham%E2%80%93Middleton%E2%80%93Levine_traffic_model), adding one degree of freedom to the model. In this implementation cars can turn right (if they move from left to right) or to the left (if they move from top to bottom) under a given probability, which in this case was 10%. It includes the same features and controls from the Game of Life implementation.
 
 <p align="center">
-<img src="/img/BML.png" alt="1D automaton" width="400"/>
+<img src="/img/BML.png" alt="1D automaton" width="500"/>
 </p>
