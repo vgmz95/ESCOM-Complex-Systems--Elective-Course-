@@ -1,5 +1,5 @@
 # ESCOM Complex Systems (Elective Course)
-This repository contains all the code made during the optative course of Complex systems at IPN - ESCOM, these programs were made entirely on Java and JavaFX.
+This repository contains all the code made during the optative course of Complex systems at IPN - ESCOM, these programs were made entirely on Java and JavaFX. These are Netbeans proyects with JavaFX elements, if you have any problems opening them check  the [JavaFX documentation for Netbeans](https://openjfx.io/openjfx-docs/#IDE-NetBeans), in the Non-modular with Maven section.
 
 ## One dimensional automaton 
 This program generates all 255 rules of the [elementary cellular automaton](https://en.wikipedia.org/wiki/Elementary_cellular_automaton#Random_initial_state), the initial array can be generated randomly, by typing it into the console or by reading a plain text archive. 
@@ -8,7 +8,7 @@ This program generates all 255 rules of the [elementary cellular automaton](http
 <img src="/img/1D.PNG" alt="1D automaton" width="500"/>
 </p>
 
-## Game Of Life 
+## Gameo of Life 
 This is program is capable of displaying all the ["life-like"](https://en.wikipedia.org/wiki/Life-like_cellular_automaton) rules for a 2D cellular automaton, including Conway's [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life).
 Other characteristics include: 
 * Pause or continue the evolution using keyboard and mouse.
@@ -33,3 +33,16 @@ This is variaton of the [BML traffic model](https://en.wikipedia.org/wiki/Biham%
 <p align="center">
 <img src="/img/BML.png" alt="1D automaton" width="500"/>
 </p>
+
+## Attractors
+This program generates the attractors for both 1D and 2D automatons, it creates a Wolfram Mathematica file with all the vertices and edges of the graph according to the rule and the space size, it also calculates if the attractor has any equivalences. 
+
+<p align="center">
+<img src="/img/1D_Rule90_8x8space.png" alt="1D attractor" width="500"/>
+<img src="/img/2D_GameOfLife_4x4space.png" alt="2D attractor" width="500"/>
+</p>
+
+
+
+
+
