@@ -24,5 +24,12 @@ Other characteristics include:
 * Click : Toggles a square in the evolutionary space (it is recommended to pause the game before editing)
 
 <p align="center">
-<img src="/img/GameOfLife.gif" alt="1D automaton" width="500"/>
+<img src="/img/GameOfLife.gif" alt="Game of life" width="500"/>
+</p>
+
+## Biham–Middleton–Levine traffic model (BML)
+This is variaton of the [BML traffic model](https://en.wikipedia.org/wiki/Biham%E2%80%93Middleton%E2%80%93Levine_traffic_model), adding one degree of freedom to the model. In this implementation cars can turn right (if they move from left to right) or to the left (if they move from top to bottom) under a given probability, which in this case was 10%. It includes the same features and controls from the Game of Life implementation.
+
+<p align="center">
+<img src="/img/BML.png" alt="1D automaton" width="400"/>
 </p>
